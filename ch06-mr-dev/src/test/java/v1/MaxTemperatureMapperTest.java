@@ -3,9 +3,13 @@ package v1;
 // == MaxTemperatureMapperTestV1Missing
 // vv MaxTemperatureMapperTestV1
 import java.io.IOException;
-import org.apache.hadoop.io.*;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mrunit.mapreduce.MapDriver;
-import org.junit.*;
+import org.junit.Ignore;
+import org.junit.Test;
 
 public class MaxTemperatureMapperTest {
 
