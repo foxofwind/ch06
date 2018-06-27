@@ -1,12 +1,10 @@
 package v1;
 // == MaxTemperatureReducerTestV1
 import java.io.IOException;
-import java.util.Arrays;
-
-import org.apache.hadoop.io.IntWritable;
-import org.apache.hadoop.io.Text;
+import java.util.*;
+import org.apache.hadoop.io.*;
 import org.apache.hadoop.mrunit.mapreduce.ReduceDriver;
-import org.junit.Test;
+import org.junit.*;
 
 public class MaxTemperatureReducerTest {
   
